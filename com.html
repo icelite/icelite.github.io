@@ -980,7 +980,7 @@ darkOakLogTop: "0g0gb08ml79b0auqebj0dcmqdb0e6y70f0f117gf0g4r4730h8wirj0hj7ev30kb
 
 	async function createDatabase() {
 		return await new Promise(async (resolve, reject) => {
-			let request = window.indexedDB.open("MineKhan", 1)
+			let request = window.indexedDB.open("Ravencraft", 1)
 
 			request.onupgradeneeded = function(event) {
 				let DB = event.target.result
